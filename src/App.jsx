@@ -4,6 +4,9 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import SideCart from './components/SideCart/SideCart';
 import Contract from './components/Contract/Contract';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const App = () => {
@@ -45,6 +48,7 @@ const App = () => {
 
 
       <Contract></Contract>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
